@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.GPTBMS">
+      <class name="TestNG.DataproviderExample">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="bookMovieTicket"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- TestNG.GPTBMS -->
+      </class> <!-- TestNG.DataproviderExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
